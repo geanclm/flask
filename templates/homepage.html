@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homepage</title>
+</head>
+<body>
+    <center>
+        <img width="200" src="{{url_for('static', filename='flask-python-1200x750.png')}}">
+        <h2>Portfólio by {{marca}}</h2>
+        <p>{{agora}}</p>
+        <table style="width:70%" align="center" cellspacing=7>
+            <tr bgcolor="#CCC">
+                <th>fibonacci</th>
+                <th>mega</th>
+                <th>pareto</th>
+                <th>primo</th>
+            </tr>
+            <tr align="center">
+                <td>
+                    <a target="_blank" href='https://github.com/geanclm/Python'>
+                     jupyter notebook
+                    </a>
+                </td>
+              <td>
+                  <a target="_blank" href='https://github.com/geanclm/Python'>
+                    jupyter notebook
+                  </a>
+                </td>
+              <td>
+                  <a target="_blank" href='https://github.com/geanclm/Python'>
+                    jupyter notebook
+                  </a>
+                </td>
+              <td>
+                  <a target="_blank" href='https://github.com/geanclm/Python'>
+                    jupyter notebook
+                  </a>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>Sequência Fibonacci<br>
+                escrito no jupyter
+                </td>
+                <td>Análise dos resultados<br>
+                históricos do concurso
+                </td>
+                <td>Princípio de Pareto<br>
+                    com simulação em gráfico.<br>
+                    Conhecido como regra 80/20</td>
+                <td>Verificação do número primo<br>
+                com técnica da raiz quadrada e<br>
+                limitando ao universo dos ímpares</td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
